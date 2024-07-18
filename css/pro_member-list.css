@@ -1,0 +1,56 @@
+/*ログアウトボタン*/
+.button {
+    text-align: center;
+    height: 20px;
+}
+
+/*メンバーのプロフィール*/
+
+
+/*カテゴリー選択*/
+.category {
+  text-align: center;
+  margin: 50px 675px;
+  padding: 15px;
+}
+
+/*メンバーリスト*/
+.aicon {
+  border: 1px solid;
+  width: 80px;
+  height: 80px;
+}
+
+.aicon img {
+  width: 75px;
+  height: 75px;
+}
+
+.profile {
+  border: 1px solid;
+  width: 145px;
+  height: 80px;
+}
+
+.pro1,.pro2,.pro3,.pro4,.pro5,.pro6 {
+  display: flex;
+}
+
+.three1 {
+	display: flex;
+	justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.three2 {
+  display: flex;
+	justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-top: 50px;
+}
+.list {
+  margin: 5%;
+
+}

@@ -1,0 +1,71 @@
+/* 全体のコンテナ */
+.container {
+  width: 80%; /* 幅を設定して中央寄せ */
+  margin: 0 auto; /* 中央寄せ */
+}
+.container h2 {
+  text-align: center; /* 中央寄せ */
+  margin-top: 30px; /* 上部マージン */
+  margin-bottom: 30px;
+}
+ 
+/* フォーム全体を包むフレックスコンテナ */
+.form-container {
+  display: flex; /* Flexboxを使ってレイアウト */
+  justify-content: space-between; /* 左右に均等に配置 */
+  margin-top: 20px; /* 適切な上部マージンを設定 */
+}
+ 
+/* 左側のフォームセクション */
+.left-section {
+  width: 48%; /* 左側の幅を設定 */
+}
+ 
+/* 右側のフォームセクション */
+.right-section {
+  width: 48%; /* 右側の幅を設定 */
+}
+ 
+/* 各フォームグループのスタイル */
+.form-group {
+  margin-bottom: 20px; /* 下部マージンを設定 */
+}
+ 
+/* インプットフィールドの共通スタイル */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000; /* 枠線 */
+  border-radius: 4px; /* 角丸 */
+  box-sizing: border-box; /* ボックスサイジング */
+}
+ 
+/* ボタンのスタイル */
+button {
+  height: 35px; /* 高さ */
+  width: 120px; /* 幅 */
+  font-size: 16px; /* フォントサイズ */
+  color: white; /* 文字色 */
+  background-color: rgba(60, 112, 216, 0.753); /* 背景色 */
+  border: none; /* ボーダーをなしに */
+  cursor: pointer; /* カーソルをポインターに */
+}
+ 
+/* リンクのスタイル */
+.sakusei {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+ 
+.back {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.back a:hover {
+  background-color: #000000;
+}
+ 

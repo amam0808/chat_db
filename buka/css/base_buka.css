@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 共通 */
+* {
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/*========= レイアウトのためのCSS ===============*/
+a{
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+a:hover {
+  color: white; 
+}
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  height: 15vh;
+  background-image: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
+}
+.menu-icon {
+  margin: auto;
+}
+
+.footer{
+  /* background-color: #ffd368; */
+  height: 250px;
+  background-image: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
+  text-align: center;
+  padding: 1%;
+  border-top: solid 1px #333;
+}
+.footer-logo {
+  width: 300px;
+  margin-left: 42%;
+}
+.footer-logo img {
+  width: 100%;
+  height: auto;
+}
+/*iii*/

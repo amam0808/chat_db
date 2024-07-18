@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* 共通 */
+* {
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/*========= レイアウトのためのCSS ===============*/
+a{
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+a:hover {
+  color: white; 
+}
+/* a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  bottom: -1px;               /*アンダーラインがaタグの下端から現れる*/
+  /* transform: scale(0, 1);     /*アンダーラインの縮尺比率。ホバー前はx方向に0*/
+  /* transform-origin: left top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の左端*/
+  /* transition: transform 0.3s; /*変形の時間*/
+  /* } */
+  
+  /* a:hover::after {
+  transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
+  /* } */ 
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  height: 15vh;
+  background-image: linear-gradient(100deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
+}
+.menu-icon {
+  margin: auto;
+}
+.footer{
+  /* background-color: #ffd368; */
+  height: 250px;
+  background-image: linear-gradient(100deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
+  text-align: center;
+  padding: 1%;
+  border-top: solid 1px #333;
+}
+.footer-logo {
+  width: 300px;
+  margin-left: 42%;
+}
+.footer-logo img {
+  width: 100%;
+  height: auto;
+}
+/*iii*/

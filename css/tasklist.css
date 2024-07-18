@@ -1,0 +1,109 @@
+
+.task__all {
+  margin: 0 auto; /* 画面の中央に寄せる */
+  max-width: 800px; /* コンテンツの最大幅を設定 */
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.task__all h2 {
+  text-align: center; /* タイトルを中央に寄せる */
+  margin-bottom: 30px; /* タイトルの下にスペースを追加 */
+}
+.task__all li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.task__content {
+  display: flex;
+  align-items: center;
+}
+.task__name,
+.task__detail {
+  flex: 1; /* 幅を均等にします */
+}
+
+.task__details {
+  display: none;
+}
+
+.task__details.active {
+  display: block;
+}
+
+.task__toggle-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #333; /* ボタンのテキストの色 */
+}
+
+.task__toggle-button:focus {
+  outline: none;
+}
+
+/* リストアイテムのデフォルトの余白やパディングをリセットします */
+.task__all ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* 各タスクアイテムのスタイル */
+.task__item {
+  border: 1px solid #ccc; /* タスクアイテムの周りに枠線を追加 */
+  border-radius: 5px; /* 角を丸めます */
+  margin-bottom: 15px; /* タスクアイテム間のスペースを追加 */
+  padding: 10px; /* タスクアイテム内の余白を追加 */
+}
+
+/* タスクヘッダーのスタイル */
+.task__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* ヘッダーの下にスペースを追加 */
+}
+
+/* タスク名と詳細のスタイル */
+.task__name,
+.task__detail {
+  flex: 1;
+}
+
+.task__button {
+  margin-left: 690px; /* ボタンと詳細情報の間に間隔を追加します */
+  background-color: rgb(145, 145, 145); /* 赤色の背景 */
+  color: white; /* 白色のテキスト */
+  border: none; /* ボーダーをなくす */
+  padding: 5px 10px; /* ボタンの余白 */
+  cursor: pointer; /* マウスがボタン上にあるときにカーソルをポインターにする */
+  border-radius: 5px; 
+}
+/* 未承認ボタンのスタイル */
+.task__button.unapproved {
+  background-color: rgb(145, 145, 145); /* 赤色 */
+}
+
+/* 承認済みボタンのスタイル */
+.task__button.approved {
+  background-color: rgb(251, 170, 19);
+}
+
+
+/* アクティブ時にタスク詳細を表示 */
+.task__details.active {
+  display: block;
+}
+
+.create_task_button {
+  /* border: 3px solid #30dafc; */
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.create_task_button:hover {
+  background-color: rgb(251, 170, 19);
+}

@@ -1,0 +1,66 @@
+
+.a2 {
+    width: 40%;
+}
+
+.a3 {
+    width: 40%;
+}
+/*タイトル*/
+.title {
+    background-color: #e0dddd;
+    border: 1px solid #afadad;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*締め切り、報酬*/
+.kigen {
+    background-color: #e0dddd;
+    border: 1px solid #afadaf;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.housyuu {
+    background-color: #e0dddd;
+    border: 1px solid #afadaf;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+/*募集内容*/
+.naiyou {
+    background-color: #e0dddd;
+    border: 1px solid #afadad;
+    border-radius: 5px;
+    padding: 70px;
+    margin-top: 40px;    
+    text-align: center;
+}
+
+button {
+    margin-top: 50px;
+    height: 35px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(60, 112, 216, 0.753);
+    margin-left: 580px;
+    margin-bottom: 50px;
+}
+
+
+.wrapper {
+    margin: 3%;
+   display: flex;
+   justify-content: space-around;
+}   
+
+
+/* logo */
