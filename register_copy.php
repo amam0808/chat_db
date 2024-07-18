@@ -4,7 +4,7 @@
 
 <head>
     <title>ログイン</title>
-    <link rel="stylesheet" type="text/css" href="./css/loginform.css">
+    <link rel="stylesheet" type="text/css" href="./css/loginform.css?1225">
     <meta charset="utf-8">
 </head>
 

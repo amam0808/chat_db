@@ -4,13 +4,16 @@
 
 <head>
     <title>ログイン</title>
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/loginform_buka.css?1227">
     <meta charset="utf-8">
 </head>
 
 <body>
     <?php if ($_SERVER['REQUEST_METHOD'] == 'GET') { ?>
-        <div class="register-container">
+        <div class="form-title">
+          <h2>Member create an acount</h2>
+        </div>
+        <div class="form">
             <h2>メンバー用新規登録</h2>
             <form action=<?php echo $_SERVER['PHP_SELF'] ?> method="post">
                 <label for="name">名前:</label>
