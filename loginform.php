@@ -27,7 +27,7 @@
 <?php if ($_SERVER['REQUEST_METHOD'] == 'GET') { ?>
     <div class="login-page">
         <div class="form-title">
-          <h2>Reader Login</h2Reader>
+          <h2>Reader Login</h2>
         </div>
         <div class="form">
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
