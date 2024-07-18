@@ -16,16 +16,16 @@
         <div class="form">
             <h2>メンバー用新規登録</h2>
             <form action=<?php echo $_SERVER['PHP_SELF'] ?> method="post">
-                <label for="name">名前:</label>
+                <label for="name">名前</label>
                 <input type="text" id="name" name="name" required>
 
-                <label for="email">メールアドレス:</label>
+                <label for="email">メールアドレス</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="password">パスワード:</label>
+                <label for="password">パスワード</label>
                 <input type="password" id="password" name="password" required>
 
-                <label for="confirm_password">パスワード確認:</label>
+                <label for="confirm_password">パスワード確認</label>
                 <input type="password" id="confirm_password" name="confirm_password" required>
 
                 <button type="submit">登録</button>
