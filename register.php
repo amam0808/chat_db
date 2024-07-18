@@ -33,7 +33,7 @@
                     echo "<p style='color: red;'>" . $_SESSION["err_register_message"] . "</p>";
                 } ?>
             </form>
-            <p>既にアカウントをお持ちの方は<a href="login.php">ログインページ</a>へ</p>
+            <p>既にアカウントをお持ちの方は<a href="top.php">ログインページ</a>へ</p>
         </div>
     <?php } ?>
 
