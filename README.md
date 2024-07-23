@@ -1,3 +1,2 @@
-xamppを立ち上げ、Apache・MySQLをStart状態に設定
-ブラウザでlocalhost/chat_db/main.phpにアクセス
+xamppを立ち上げてApache・MySQLをStart状態に設定し、ブラウザでlocalhost/chat_db/main.phpにアクセス	
 ※データベースを共有していないためアカウントの登録・ログインは不可能
